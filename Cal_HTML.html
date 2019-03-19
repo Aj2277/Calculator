@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Cal_CSS.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+    crossorigin="anonymous">
+  </head
+
+  <body>
+    <div class="base">
+        <input class="display" type="text" value="">
+      <div class="deleteBtn">
+        <i class="fas fa-backspace"></i>
+      </div>
+
+      <div class="buttons">
+        <table>
+          <tr>
+            <td><input class="clear btn" type="button" value="C"></td>
+            <td><input class="calc btn" data-role="operator" type="button" value="()"></td>
+            <td><input class="calc btn" data-role="operator" type="button" value="%"></td>
+            <td><input class="calc btn" data-role="operator" type="button" value="/"></td>
+          </tr>
+          <tr>
+            <td><input class="calc btn" data-role="number" type="button" value="7"></td>
+            <td><input class="calc btn" data-role="number" type="button" value="8"></td>
+            <td><input class="calc btn" data-role="number" type="button" value="9"></td>
+            <td><input class="calc btn" data-role="operator" type="button" value="*"></td>
+          </tr>
+          <tr>
+            <td><input class="calc btn" data-role="number" type="button" value="4"></td>
+            <td><input class="calc btn" data-role="number" type="button" value="5"></td>
+            <td><input class="calc btn" data-role="number" type="button" value="6"></td>
+            <td><input class="calc btn" data-role="operator" type="button" value="-"></td>
+          </tr>
+          <tr>
+            <td><input class="calc btn" data-role="number" type="button" value="1"></td>
+            <td><input class="calc btn" data-role="number" type="button" value="2"></td>
+            <td><input class="calc btn" data-role="number" type="button" value="3"></td>
+            <td><input class="calc btn" data-role="operator" type="button" value="+"></td>
+          </tr>
+          <tr>
+            <td><input class="calc btn" data-role="operator" type="button" value="+/-"></td>
+            <td><input class="calc btn" data-role="number" type="button" value="0"></td>
+            <td><input class="calc btn" data-role="operator" type="button" value="."></td>
+            <td><input class="calculate btn" type="button" value="="></td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Cal_JS.js"></script>
+
+  </body>
+</html>
